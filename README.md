@@ -1,14 +1,27 @@
-# Blesson Joseph Reji — Engineering Portfolio
+# Blesson Joseph Reji — Engineering Portfolio Version 7 (Editable)
 
-GitHub Pages site. Upload `index.html`, `styles.css`, `script.js`, `projects.json` and the entire `assets/` folder to the root of the `Blessonreji539.github.io` repository.
+This version keeps the editable source-code structure from Version 6.
 
-## Before publishing
-- Review every claim and photo for accuracy and permission, especially internship/jobsite and Navy-mentored project photos.
-- Replace the LinkedIn search link with your exact LinkedIn profile URL.
-- Replace the résumé placeholder with an approved PDF résumé and update its link.
-- Verify certificate titles and life insurance license status.
-- Add personal photos only with your permission.
-- Add future RoviSys achievements only after starting work and reviewing confidentiality requirements.
-- Site requires no build system. GitHub Pages source: main branch, /(root).
+## Changes
+- Corrected the Sooper Dooper Looper photo by rotating its image file 180 degrees.
+- Removed the large 'AI CONCEPT ILLUSTRATION' labels from project cards.
+- Kept AI concept artwork as illustrative imagery; the image alt text and project context still identify it as illustrative, not photographic proof of completed work.
+- Removed the bathroom mirror photo and AI-stylized personal portrait.
+- Replaced the About-section car selfie with the genuine outdoor photo.
+- Preserved the professional homepage portrait, projects, technical skills, résumé and meeting request.
 
-Project details are embedded in `index.html` for reliable static hosting. `projects.json` is an editable reference; if you change it, update the embedded `project-data` in `index.html` as well.
+## Files to replace on GitHub
+- REPLACE `index.html`
+- REPLACE `styles.css`
+- REPLACE `assets/projects/project-07-photo-01.jpg`
+- REPLACE `assets/personal/photo-15.jpg` only if yours is missing (unchanged image)
+- DELETE `assets/portraits/photo-02.jpg`, `assets/personal/photo-16.jpg`, and `assets/personal/photo-17.jpg` (no longer used)
+- KEEP `script.js`, `projects.json`, and `Blesson_Joseph_Reji_Resume.pdf` (unchanged)
+- KEEP other project images and your existing README, or use this README
+
+You can also upload the entire extracted Version 7 package to replace the matching files while preserving directory paths. GitHub Pages must see index.html in the repository root.
+
+## Editing and preview
+Open the folder in VS Code. Edit `index.html`, `styles.css`, `script.js`, and `projects.json` directly. Use Live Server or `python3 -m http.server 8000` for local preview because project details load from JSON.
+
+Do not publish credentials, passwords, API keys, or sensitive personal information in the repository.
