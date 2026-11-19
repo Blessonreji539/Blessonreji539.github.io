@@ -1,13 +1,13 @@
 [
   {
     "id": 0,
-    "title": "SeaSPRITE \u2014 Wireless Surface Vessel Control",
-    "category": "Embedded Systems \u00b7 Capstone",
+    "title": "SeaSPRITE — Wireless Surface Vessel Control",
+    "category": "Embedded Systems · Capstone",
     "year": "2025",
     "problem": "A legacy wired joystick limited mobility and classroom flexibility.",
     "goal": "Build an affordable, modular wireless controller capable of at least 50 meters of reliable operation.",
     "solution": "Led a three-person team integrating two ESP32 controllers, Wi-Fi command transmission, DC motor drive and servo steering. Supported electrical wiring, prototype troubleshooting, system verification and documentation.",
-    "result": "Reliable land-based communication at approximately 60 \u00b1 5 meters, exceeding the 50-meter target; intermittent performance near 90 meters. Over-water validation remained future work.",
+    "result": "Reliable land-based communication at approximately 60 ± 5 meters, exceeding the 50-meter target; intermittent performance near 90 meters. Over-water validation remained future work.",
     "tags": [
       "ESP32",
       "Arduino IDE",
@@ -18,12 +18,32 @@
       "Servo"
     ],
     "images": [
-      "assets/project-05.jpg",
-      "assets/project-06.jpg",
-      "assets/project-07.jpg",
-      "assets/project-08.jpg",
-      "assets/project-09.jpg"
-    ]
+      "assets/projects/project-01-photo-01.jpg",
+      "assets/projects/project-01-photo-02.jpg",
+      "assets/projects/project-01-photo-03.jpg",
+      "assets/projects/project-01-photo-04.jpg",
+      "assets/projects/project-01-photo-05.jpg"
+    ],
+    "description": "I led a three-person team developing a remotely operated surface vessel as a senior capstone mentored by the Naval Surface Warfare Center Philadelphia Division. The project required integration of propulsion, steering, electrical power distribution, and wireless control. I worked with an ESP32-based control architecture and developed schematics and test plans to support integration. I assembled and tested prototypes, diagnosed electrical and control issues, and coordinated technical documentation and team progress. The experience strengthened my systems integration, troubleshooting, and engineering leadership skills.",
+    "technical_skills": [
+      "Systems integration",
+      "Electrical power distribution",
+      "Embedded control",
+      "Motor and steering control",
+      "Testing and validation",
+      "Technical leadership"
+    ],
+    "software_tools": [
+      "ESP32",
+      "Multimeter",
+      "KiCad",
+      "SolidWorks",
+      "MATLAB",
+      "Multisim",
+      "Microsoft Excel",
+      "Microsoft Teams"
+    ],
+    "featured_image": "assets/projects/project-01-photo-01.jpg"
   },
   {
     "id": 1,
@@ -41,10 +61,68 @@
       "VFD"
     ],
     "images": [
-      "assets/project-10.jpg",
-      "assets/project-11.jpg",
-      "assets/project-12.jpg"
-    ]
+      "assets/projects/project-02-photo-01.jpg",
+      "assets/projects/project-02-photo-02.jpg",
+      "assets/projects/project-02-photo-03.jpg"
+    ],
+    "description": "I designed, wired, programmed, and troubleshot Allen-Bradley Micro820 PLC training systems at Temple University. Using Connected Components Workbench, I developed ladder logic for digital I/O, relay logic, timers, counters, and sequential operations. I also used analog signals, comparisons, MOV instructions, and voltage thresholds to control indicator outputs. Another exercise integrated a variable frequency drive with pushbutton start-stop controls and potentiometer-based speed regulation. This work built practical skills in industrial control wiring, PLC testing, motor control, and troubleshooting.",
+    "technical_skills": [
+      "PLC programming",
+      "Ladder logic",
+      "Digital and analog I/O",
+      "24 VDC wiring",
+      "Timers and counters",
+      "Analog scaling",
+      "VFD motor control",
+      "Troubleshooting"
+    ],
+    "software_tools": [
+      "Allen-Bradley Micro820 PLC",
+      "Connected Components Workbench (CCW)",
+      "Variable frequency drive",
+      "Potentiometer",
+      "Multimeter"
+    ],
+    "featured_image": "assets/projects/project-02-photo-01.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Construction Materials Testing",
+    "category": "Field Engineering · Internship",
+    "year": "2025",
+    "problem": "Construction teams need verified material properties and documented compliance with specifications.",
+    "goal": "Support field QA/QC across active construction sites.",
+    "solution": "Performed soil density and compaction testing, fresh-concrete slump and air-content tests, and rebar/formwork inspections; documented observations and coordinated with site personnel.",
+    "result": "Produced inspection and testing records supporting construction quality verification.",
+    "tags": [
+      "ASTM/AASHTO",
+      "QA/QC",
+      "Nuclear Density Gauge",
+      "Concrete"
+    ],
+    "images": [
+      "assets/projects/project-03-photo-01.jpg",
+      "assets/projects/project-03-photo-02.jpg",
+      "assets/projects/project-03-photo-03.jpg",
+      "assets/projects/project-03-photo-04.jpg"
+    ],
+    "description": "During my field technician internship at Hillis-Carnes Engineering Associates, I tested soil, concrete, and asphalt on active construction projects. I used specialized equipment to collect measurements relevant to compaction, material properties, and project specifications. I also interpreted CAD drawings and inspected rebar placement and formwork before concrete pours. I documented test results and communicated findings to engineers and construction teams. The experience reinforced the importance of field safety, accurate measurements, and dependable engineering documentation.",
+    "technical_skills": [
+      "Construction materials testing",
+      "Quality assurance",
+      "CAD drawing interpretation",
+      "Field inspection",
+      "Technical reporting",
+      "Safety compliance"
+    ],
+    "software_tools": [
+      "Nuclear density gauge",
+      "Slump cone",
+      "Air meter",
+      "Compression testing equipment",
+      "CAD drawings"
+    ],
+    "featured_image": "assets/projects/project-03-photo-01.jpg"
   },
   {
     "id": 2,
@@ -62,11 +140,27 @@
       "G-code"
     ],
     "images": [
-      "assets/project-14.jpg",
-      "assets/project-15.jpg",
-      "assets/project-16.jpg",
-      "assets/project-17.jpg"
-    ]
+      "assets/projects/project-04-photo-01.jpg",
+      "assets/projects/project-04-photo-02.jpg",
+      "assets/projects/project-04-photo-03.jpg",
+      "assets/projects/project-04-photo-04.jpg"
+    ],
+    "description": "I designed and manufactured a functional bottle opener as a CAD/CAM/CNC project. I produced two-dimensional geometry in AutoCAD and prepared machining operations in Mastercam. I established work coordinates and developed toolpaths for facing, drilling, pocketing, and contouring. I generated and adjusted G-code instructions for the CNC manufacturing process. The project connected digital drafting and toolpath planning with fabrication of a physical part.",
+    "technical_skills": [
+      "2D CAD drafting",
+      "CAD/CAM integration",
+      "CNC milling",
+      "Toolpath planning",
+      "G-code programming",
+      "Precision manufacturing"
+    ],
+    "software_tools": [
+      "AutoCAD",
+      "Mastercam",
+      "CNC milling equipment",
+      "G-code"
+    ],
+    "featured_image": "assets/projects/project-04-photo-01.jpg"
   },
   {
     "id": 3,
@@ -84,33 +178,28 @@
       "Aluminum 6061"
     ],
     "images": [
-      "assets/project-18.jpg",
-      "assets/project-19.jpg",
-      "assets/project-20.jpg",
-      "assets/project-21.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Construction Materials Testing",
-    "category": "Field Engineering \u00b7 Internship",
-    "year": "2025",
-    "problem": "Construction teams need verified material properties and documented compliance with specifications.",
-    "goal": "Support field QA/QC across active construction sites.",
-    "solution": "Performed soil density and compaction testing, fresh-concrete slump and air-content tests, and rebar/formwork inspections; documented observations and coordinated with site personnel.",
-    "result": "Produced inspection and testing records supporting construction quality verification.",
-    "tags": [
-      "ASTM/AASHTO",
-      "QA/QC",
-      "Nuclear Density Gauge",
-      "Concrete"
+      "assets/projects/project-05-photo-01.jpg",
+      "assets/projects/project-05-photo-02.jpg",
+      "assets/projects/project-05-photo-03.jpg",
+      "assets/projects/project-05-photo-04.jpg"
     ],
-    "images": [
-      "assets/project-01.jpg",
-      "assets/project-02.jpg",
-      "assets/project-03.jpg",
-      "assets/project-04.jpg"
-    ]
+    "description": "I designed and manufactured a bishop chess piece using CNC turning techniques. I developed the geometry in AutoCAD and prepared machining coordinates and operations in Mastercam. The project used Aluminum 6061 as the workpiece material. I programmed and simulated lathe toolpaths to review tool motion before machining. The finished exercise developed my understanding of CNC turning, simulation, material selection, and precision manufacturing.",
+    "technical_skills": [
+      "CAD/CAM",
+      "CNC turning",
+      "Workpiece setup",
+      "Toolpath simulation",
+      "G-code programming",
+      "Precision manufacturing"
+    ],
+    "software_tools": [
+      "AutoCAD",
+      "Mastercam",
+      "CNC lathe",
+      "Aluminum 6061",
+      "G-code"
+    ],
+    "featured_image": "assets/projects/project-05-photo-01.jpg"
   },
   {
     "id": 5,
@@ -120,7 +209,7 @@
     "problem": "Replacing a gasoline fleet involves large upfront costs and uncertain operating savings.",
     "goal": "Evaluate the economic and environmental feasibility of replacing eight university vehicles with EVs.",
     "solution": "Built Excel NPV, after-tax cash-flow, break-even and sensitivity models, including 1,000-trial Monte Carlo analysis.",
-    "result": "Model projected $493,116 positive NPV, 3.94-year payback and annual CO\u2082 reduction from 451 to 50 metric tons; scenario estimates, not realized savings.",
+    "result": "Model projected $493,116 positive NPV, 3.94-year payback and annual CO₂ reduction from 451 to 50 metric tons; scenario estimates, not realized savings.",
     "tags": [
       "Excel",
       "NPV",
@@ -128,13 +217,26 @@
       "Cost-Benefit Analysis"
     ],
     "images": [
-      "assets/project-22.jpg"
-    ]
+      "assets/projects/project-06-photo-01.jpg"
+    ],
+    "description": "I completed an engineering economic feasibility analysis exploring a potential transition from gasoline vehicles to an electric fleet. The study considered the tradeoffs between initial investment and operating costs. I organized assumptions and compared alternative scenarios to support a reasoned decision. The analysis emphasized the importance of clearly communicating uncertainty and long-term costs. This was an analytical study rather than a physical vehicle conversion.",
+    "technical_skills": [
+      "Engineering economics",
+      "Feasibility analysis",
+      "Cost comparison",
+      "Scenario evaluation",
+      "Technical reporting"
+    ],
+    "software_tools": [
+      "Spreadsheet analysis",
+      "Engineering economic calculations"
+    ],
+    "featured_image": "assets/projects/project-06-photo-01.jpg"
   },
   {
     "id": 6,
     "title": "Sooper Dooper Looper",
-    "category": "Mechanical Design \u00b7 3D Printing",
+    "category": "Mechanical Design · 3D Printing",
     "year": "2024",
     "problem": "A marble needs sufficient energy to travel through a vertical loop.",
     "goal": "Design a functional 3D-printed track informed by kinematics.",
@@ -147,8 +249,26 @@
       "Kinematics"
     ],
     "images": [
-      "assets/project-13.jpg"
-    ]
+      "assets/projects/project-07-photo-01.jpg"
+    ],
+    "description": "I designed a three-dimensional marble-loop track to explore energy conservation and rotational motion. I calculated the release height and velocity required for a steel marble to complete a vertical loop, including a design safety factor. I modeled the track in SolidWorks using sketches, helix geometry, and sweep features. I reviewed motion behavior and prepared the model for additive manufacturing. I exported the design to STL and configured Cura for a PLA 3D-printed prototype.",
+    "technical_skills": [
+      "3D CAD modeling",
+      "Engineering mechanics",
+      "Kinematics",
+      "Motion analysis",
+      "Parametric design",
+      "Additive manufacturing"
+    ],
+    "software_tools": [
+      "SolidWorks",
+      "SolidWorks Motion",
+      "STL files",
+      "Ultimaker Cura",
+      "PLA",
+      "3D printer"
+    ],
+    "featured_image": "assets/projects/project-07-photo-01.jpg"
   },
   {
     "id": 7,
@@ -164,7 +284,28 @@
       "MySQL",
       "Web Development"
     ],
-    "images": []
+    "images": [
+      "assets/projects/project-08-photo-01.jpg"
+    ],
+    "description": "I collaborated on a secure web application organized around the Model-View-Controller architecture. The project included account registration, login, authentication, and password-reset workflows. I helped implement a MySQL relational database to store and manage user information. The team connected responsive web interfaces with database-backed functionality. This experience introduced me to structured application development and collaborative software design.",
+    "technical_skills": [
+      "Web application development",
+      "MVC architecture",
+      "Relational database design",
+      "Authentication workflows",
+      "Team collaboration"
+    ],
+    "software_tools": [
+      "MySQL",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "PHP"
+    ],
+    "illustrative": true,
+    "featured_image": "assets/projects/project-08-photo-01.jpg"
   },
   {
     "id": 8,
@@ -180,7 +321,27 @@
       "DC Circuits",
       "Photoresistor"
     ],
-    "images": []
+    "images": [
+      "assets/projects/project-09-photo-01.jpg"
+    ],
+    "description": "I developed an automatic night-light circuit concept using a photoresistor and LED. The design explored how changes in ambient light could produce an electrical response. I applied Ohm's Law, Kirchhoff's Laws, voltage dividers, Thevenin's theorem, and Wheatstone bridge analysis. I used NI Multisim to simulate resistance changes and evaluate circuit behavior. The project strengthened my DC circuit analysis and simulation skills.",
+    "technical_skills": [
+      "DC circuit analysis",
+      "Wheatstone bridge analysis",
+      "Voltage dividers",
+      "Thevenin equivalent circuits",
+      "LED control",
+      "Circuit simulation"
+    ],
+    "software_tools": [
+      "NI Multisim",
+      "Photoresistor",
+      "LED",
+      "Potentiometer",
+      "Operational amplifier concepts"
+    ],
+    "illustrative": true,
+    "featured_image": "assets/projects/project-09-photo-01.jpg"
   },
   {
     "id": 9,
@@ -189,19 +350,38 @@
     "year": "2022",
     "problem": "Electronic systems need selective frequency response and signal conditioning.",
     "goal": "Analyze low-pass and high-pass filters against specified cutoff targets.",
-    "solution": "Developed circuit models and transfer-function analysis, examining 1.54 kHz and 72.34 kHz targets with \u00b15% tolerance.",
+    "solution": "Developed circuit models and transfer-function analysis, examining 1.54 kHz and 72.34 kHz targets with ±5% tolerance.",
     "result": "Evaluated filter response and amplifier design options using circuit simulation.",
     "tags": [
       "Multisim",
       "MATLAB",
       "Analog Filters"
     ],
-    "images": []
+    "images": [
+      "assets/projects/project-10-photo-01.jpg"
+    ],
+    "description": "I designed and analyzed low-pass and high-pass AC filters against specified frequency-response requirements. The project used circuit theory, complex impedance, and transfer functions to understand attenuation and cutoff behavior. I investigated passive filters and active filter modifications involving operational amplifiers. I used NI Multisim and MATLAB-based analysis to compare theoretical and simulated behavior. The work developed my understanding of analog signal conditioning and verification against design specifications.",
+    "technical_skills": [
+      "AC circuit analysis",
+      "Frequency response",
+      "Transfer functions",
+      "Analog filter design",
+      "Simulation",
+      "Signal conditioning"
+    ],
+    "software_tools": [
+      "NI Multisim",
+      "MATLAB",
+      "RC/RL circuit models",
+      "Operational amplifier models"
+    ],
+    "illustrative": true,
+    "featured_image": "assets/projects/project-10-photo-01.jpg"
   },
   {
     "id": 10,
-    "title": "Water Infrastructure Design \u2014 Peru",
-    "category": "Sustainability \u00b7 Research",
+    "title": "Water Infrastructure Design — Peru",
+    "category": "Sustainability · Research",
     "year": "2020",
     "problem": "Communities in Lobitos and Piedritas face challenges accessing reliable clean water.",
     "goal": "Compare feasible conceptual water-infrastructure interventions.",
@@ -212,12 +392,29 @@
       "Multi-Criteria Analysis",
       "Sustainability"
     ],
-    "images": []
+    "images": [
+      "assets/projects/project-11-photo-01.jpg"
+    ],
+    "description": "I collaborated with a three-member team on a conceptual water-infrastructure design challenge focused on Lobitos and Piedritas, Peru. We evaluated water treatment, local storage and pumping, and rainwater collection alternatives. Using a weighted multi-criteria assessment in Microsoft Excel, we compared social, economic, environmental, and implementation factors. Rainwater collection stations received the highest score in our conceptual comparison. The project taught me to evaluate engineering alternatives while considering community needs and practical constraints.",
+    "technical_skills": [
+      "Multi-criteria decision analysis",
+      "Sustainable infrastructure",
+      "Feasibility analysis",
+      "Stakeholder considerations",
+      "Remote teamwork"
+    ],
+    "software_tools": [
+      "Microsoft Excel",
+      "Weighted scoring matrix",
+      "Engineering research"
+    ],
+    "illustrative": true,
+    "featured_image": "assets/projects/project-11-photo-01.jpg"
   },
   {
     "id": 11,
     "title": "Portable Liver Transport System",
-    "category": "Biomedical Design \u00b7 Research",
+    "category": "Biomedical Design · Research",
     "year": "2020",
     "problem": "Organ transportation requires careful preservation and system reliability.",
     "goal": "Investigate design constraints and risk-reduction concepts for donor-liver transport.",
@@ -228,6 +425,25 @@
       "Risk Assessment",
       "Biomedical Research"
     ],
-    "images": []
+    "images": [
+      "assets/projects/project-12-photo-01.jpg"
+    ],
+    "description": "I collaborated on an engineering design research project examining safer transportation and preservation of donor livers. The team researched conventional cold storage and normothermic machine perfusion concepts. We identified stakeholder needs and constraints involving transport duration, power supply, equipment size, and reliability. We assessed potential hazards such as power overload and pump failure and considered redundant systems. The project was a conceptual research and design exercise, not a clinically validated medical device.",
+    "technical_skills": [
+      "Engineering design research",
+      "Requirements analysis",
+      "Risk assessment",
+      "Reliability engineering",
+      "Failure-mode analysis",
+      "Technical documentation"
+    ],
+    "software_tools": [
+      "SolidWorks (early prototype work)",
+      "Temperature sensing concepts",
+      "Data acquisition concepts",
+      "Research documentation"
+    ],
+    "illustrative": true,
+    "featured_image": "assets/projects/project-12-photo-01.jpg"
   }
 ]
