@@ -1,0 +1,233 @@
+[
+  {
+    "id": 0,
+    "title": "SeaSPRITE \u2014 Wireless Surface Vessel Control",
+    "category": "Embedded Systems \u00b7 Capstone",
+    "year": "2025",
+    "problem": "A legacy wired joystick limited mobility and classroom flexibility.",
+    "goal": "Build an affordable, modular wireless controller capable of at least 50 meters of reliable operation.",
+    "solution": "Led a three-person team integrating two ESP32 controllers, Wi-Fi command transmission, DC motor drive and servo steering. Supported electrical wiring, prototype troubleshooting, system verification and documentation.",
+    "result": "Reliable land-based communication at approximately 60 \u00b1 5 meters, exceeding the 50-meter target; intermittent performance near 90 meters. Over-water validation remained future work.",
+    "tags": [
+      "ESP32",
+      "Arduino IDE",
+      "Wi-Fi",
+      "PWM",
+      "KiCad",
+      "DC Motor",
+      "Servo"
+    ],
+    "images": [
+      "assets/project-05.jpg",
+      "assets/project-06.jpg",
+      "assets/project-07.jpg",
+      "assets/project-08.jpg",
+      "assets/project-09.jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "PLC & Industrial Automation",
+    "category": "Controls Engineering",
+    "year": "2025",
+    "problem": "Industrial equipment requires predictable and testable sequencing and safe control of electrical inputs and outputs.",
+    "goal": "Program and verify PLC logic, analog signal monitoring, and motor speed control.",
+    "solution": "Built and troubleshot Allen-Bradley Micro820 training exercises in Connected Components Workbench; implemented ladder logic, timers, digital/analog I/O and VFD fan speed control.",
+    "result": "Tested control logic, voltage thresholds and potentiometer-driven speed references on training hardware.",
+    "tags": [
+      "Allen-Bradley Micro820",
+      "CCW",
+      "Ladder Logic",
+      "VFD"
+    ],
+    "images": [
+      "assets/project-10.jpg",
+      "assets/project-11.jpg",
+      "assets/project-12.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CNC-Milled Bottle Opener",
+    "category": "Manufacturing",
+    "year": "2024",
+    "problem": "Convert a functional part concept into repeatable machining instructions and a physical component.",
+    "goal": "Design, program and manufacture a precision bottle opener.",
+    "solution": "Prepared AutoCAD drawings, generated Mastercam toolpaths for facing, drilling, pocketing and contouring, and applied CNC G-code.",
+    "result": "Produced a physical metal bottle opener and documented its CAD/CAM workflow.",
+    "tags": [
+      "AutoCAD",
+      "Mastercam",
+      "CNC Milling",
+      "G-code"
+    ],
+    "images": [
+      "assets/project-14.jpg",
+      "assets/project-15.jpg",
+      "assets/project-16.jpg",
+      "assets/project-17.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "CNC-Turned Bishop Chess Piece",
+    "category": "Manufacturing",
+    "year": "2024",
+    "problem": "A rotationally symmetric chess piece requires dimensional planning and careful turning operations.",
+    "goal": "Model and machine a bishop chess piece using a CNC lathe.",
+    "solution": "Configured Aluminum 6061 stock, created geometry and machining origins, simulated turning paths in Mastercam and generated G-code.",
+    "result": "Fabricated a physical aluminum bishop chess piece.",
+    "tags": [
+      "AutoCAD",
+      "Mastercam",
+      "CNC Lathe",
+      "Aluminum 6061"
+    ],
+    "images": [
+      "assets/project-18.jpg",
+      "assets/project-19.jpg",
+      "assets/project-20.jpg",
+      "assets/project-21.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Construction Materials Testing",
+    "category": "Field Engineering \u00b7 Internship",
+    "year": "2025",
+    "problem": "Construction teams need verified material properties and documented compliance with specifications.",
+    "goal": "Support field QA/QC across active construction sites.",
+    "solution": "Performed soil density and compaction testing, fresh-concrete slump and air-content tests, and rebar/formwork inspections; documented observations and coordinated with site personnel.",
+    "result": "Produced inspection and testing records supporting construction quality verification.",
+    "tags": [
+      "ASTM/AASHTO",
+      "QA/QC",
+      "Nuclear Density Gauge",
+      "Concrete"
+    ],
+    "images": [
+      "assets/project-01.jpg",
+      "assets/project-02.jpg",
+      "assets/project-03.jpg",
+      "assets/project-04.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Electric Vehicle Fleet Conversion Study",
+    "category": "Engineering Economics",
+    "year": "2024",
+    "problem": "Replacing a gasoline fleet involves large upfront costs and uncertain operating savings.",
+    "goal": "Evaluate the economic and environmental feasibility of replacing eight university vehicles with EVs.",
+    "solution": "Built Excel NPV, after-tax cash-flow, break-even and sensitivity models, including 1,000-trial Monte Carlo analysis.",
+    "result": "Model projected $493,116 positive NPV, 3.94-year payback and annual CO\u2082 reduction from 451 to 50 metric tons; scenario estimates, not realized savings.",
+    "tags": [
+      "Excel",
+      "NPV",
+      "Monte Carlo",
+      "Cost-Benefit Analysis"
+    ],
+    "images": [
+      "assets/project-22.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sooper Dooper Looper",
+    "category": "Mechanical Design \u00b7 3D Printing",
+    "year": "2024",
+    "problem": "A marble needs sufficient energy to travel through a vertical loop.",
+    "goal": "Design a functional 3D-printed track informed by kinematics.",
+    "solution": "Modeled track geometry in SolidWorks, calculated minimum release height and velocity with a 1.3 safety factor, and prepared PLA prints using Cura.",
+    "result": "Created a track prototype and motion-analysis workflow.",
+    "tags": [
+      "SolidWorks",
+      "Cura",
+      "PLA",
+      "Kinematics"
+    ],
+    "images": [
+      "assets/project-13.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Secure Web Application",
+    "category": "Software Engineering",
+    "year": "2024",
+    "problem": "Account-based applications need organized authentication and user-data workflows.",
+    "goal": "Develop a database-backed web application with registration, login and password reset.",
+    "solution": "Collaborated on an MVC application and MySQL relational database, integrating interactive account-management pages.",
+    "result": "Delivered academic application functionality for account registration and authentication.",
+    "tags": [
+      "MVC",
+      "MySQL",
+      "Web Development"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "title": "Automatic Night Light Circuit",
+    "category": "Electrical Engineering",
+    "year": "2022",
+    "problem": "An LED should respond to ambient light using an analog sensing circuit.",
+    "goal": "Design and analyze a photoresistor-controlled night light.",
+    "solution": "Applied Wheatstone bridge, voltage divider and Thevenin analysis; modeled behavior in NI Multisim.",
+    "result": "Developed and simulated a circuit targeting a 2 V, 20 mA LED.",
+    "tags": [
+      "Multisim",
+      "DC Circuits",
+      "Photoresistor"
+    ],
+    "images": []
+  },
+  {
+    "id": 9,
+    "title": "AC Filter Design",
+    "category": "Electrical Engineering",
+    "year": "2022",
+    "problem": "Electronic systems need selective frequency response and signal conditioning.",
+    "goal": "Analyze low-pass and high-pass filters against specified cutoff targets.",
+    "solution": "Developed circuit models and transfer-function analysis, examining 1.54 kHz and 72.34 kHz targets with \u00b15% tolerance.",
+    "result": "Evaluated filter response and amplifier design options using circuit simulation.",
+    "tags": [
+      "Multisim",
+      "MATLAB",
+      "Analog Filters"
+    ],
+    "images": []
+  },
+  {
+    "id": 10,
+    "title": "Water Infrastructure Design \u2014 Peru",
+    "category": "Sustainability \u00b7 Research",
+    "year": "2020",
+    "problem": "Communities in Lobitos and Piedritas face challenges accessing reliable clean water.",
+    "goal": "Compare feasible conceptual water-infrastructure interventions.",
+    "solution": "Used weighted multi-criteria assessment to evaluate treatment facilities, storage and pumping, and rainwater collection.",
+    "result": "Recommended rainwater collection as the highest-scoring conceptual alternative (64).",
+    "tags": [
+      "Excel",
+      "Multi-Criteria Analysis",
+      "Sustainability"
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "title": "Portable Liver Transport System",
+    "category": "Biomedical Design \u00b7 Research",
+    "year": "2020",
+    "problem": "Organ transportation requires careful preservation and system reliability.",
+    "goal": "Investigate design constraints and risk-reduction concepts for donor-liver transport.",
+    "solution": "Researched perfusion approaches, stakeholder requirements, power and pump failure modes, and redundant-system concepts.",
+    "result": "Produced conceptual reliability recommendations; not a clinically validated device.",
+    "tags": [
+      "Reliability Engineering",
+      "Risk Assessment",
+      "Biomedical Research"
+    ],
+    "images": []
+  }
+]
