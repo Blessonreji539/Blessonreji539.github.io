@@ -1,13 +1,13 @@
 [
   {
     "id": 0,
-    "title": "SeaSPRITE — Wireless Surface Vessel Control",
-    "category": "Embedded Systems · Capstone",
+    "title": "SeaSPRITE — Digital Modernization of a Naval Surface Vessel",
+    "category": "Featured Senior Capstone · Systems Integration",
     "year": "2025",
     "problem": "A legacy wired joystick limited mobility and classroom flexibility.",
     "goal": "Build an affordable, modular wireless controller capable of at least 50 meters of reliable operation.",
-    "solution": "Led a three-person team integrating two ESP32 controllers, Wi-Fi command transmission, DC motor drive and servo steering. Supported electrical wiring, prototype troubleshooting, system verification and documentation.",
-    "result": "Reliable land-based communication at approximately 60 ± 5 meters, exceeding the 50-meter target; intermittent performance near 90 meters. Over-water validation remained future work.",
+    "solution": "Led a three-person team in modernizing an inherited wired joystick. Repaired unstable sensors and enclosure issues; evaluated Bluetooth and RF before selecting ESP32 Wi-Fi. Digitized joystick inputs and transmitted motion commands to a second ESP32 on the boat. Integrated an H-bridge, DC propulsion, PWM steering servo, battery, inline fuse and buck converters. The SeaPerch underwater path was a reach goal and was discontinued due to sealing and integration constraints; the surface boat was the final validated platform.",
+    "result": "Land-based trials at approximately 30, 60 and 90 m showed reliable operation at 60 ± 5 m and intermittent communication near 90 m. The report abstract also describes stable operation up to 70 m. The 50 m design target was met. Over-water testing, custom PCB integration and educational kit refinement remained future work.",
     "tags": [
       "ESP32",
       "Arduino IDE",
@@ -18,13 +18,13 @@
       "Servo"
     ],
     "images": [
-      "assets/projects/project-01-photo-01.jpg",
-      "assets/projects/project-01-photo-02.jpg",
-      "assets/projects/project-01-photo-03.jpg",
-      "assets/projects/project-01-photo-04.jpg",
-      "assets/projects/project-01-photo-05.jpg"
+      "project-01-photo-01.jpg",
+      "project-01-photo-02.jpg",
+      "project-01-photo-03.jpg",
+      "project-01-photo-04.jpg",
+      "project-01-photo-05.jpg"
     ],
-    "description": "I led a three-person team developing a remotely operated surface vessel as a senior capstone mentored by the Naval Surface Warfare Center Philadelphia Division. The project required integration of propulsion, steering, electrical power distribution, and wireless control. I worked with an ESP32-based control architecture and developed schematics and test plans to support integration. I assembled and tested prototypes, diagnosed electrical and control issues, and coordinated technical documentation and team progress. The experience strengthened my systems integration, troubleshooting, and engineering leadership skills.",
+    "description": "Our ENGT 4196 senior design team collaborated with NSWCPD to develop a modular wireless control architecture for educational aquatic robotics. I led the three-person team and contributed to hardware integration, troubleshooting, testing, documentation and design trade-offs. The prototype combined legacy joystick inputs, ESP32 firmware, wireless communication, motor actuation and power management. We prioritized functional validation, cost awareness, electrical safety and repeatable student assembly. The project demonstrated a working surface-vehicle prototype and established a foundation for future PCB and water-based validation.",
     "technical_skills": [
       "Systems integration",
       "Electrical power distribution",
@@ -43,7 +43,7 @@
       "Microsoft Excel",
       "Microsoft Teams"
     ],
-    "featured_image": "assets/projects/project-01-photo-01.jpg"
+    "featured_image": "project-01-photo-01.jpg"
   },
   {
     "id": 1,
@@ -61,9 +61,9 @@
       "VFD"
     ],
     "images": [
-      "assets/projects/project-02-photo-01.jpg",
-      "assets/projects/project-02-photo-02.jpg",
-      "assets/projects/project-02-photo-03.jpg"
+      "project-02-photo-01.jpg",
+      "project-02-photo-02.jpg",
+      "project-02-photo-03.jpg"
     ],
     "description": "I designed, wired, programmed, and troubleshot Allen-Bradley Micro820 PLC training systems at Temple University. Using Connected Components Workbench, I developed ladder logic for digital I/O, relay logic, timers, counters, and sequential operations. I also used analog signals, comparisons, MOV instructions, and voltage thresholds to control indicator outputs. Another exercise integrated a variable frequency drive with pushbutton start-stop controls and potentiometer-based speed regulation. This work built practical skills in industrial control wiring, PLC testing, motor control, and troubleshooting.",
     "technical_skills": [
@@ -83,7 +83,7 @@
       "Potentiometer",
       "Multimeter"
     ],
-    "featured_image": "assets/projects/project-02-photo-01.jpg"
+    "featured_image": "project-02-photo-01.jpg"
   },
   {
     "id": 4,
@@ -101,10 +101,10 @@
       "Concrete"
     ],
     "images": [
-      "assets/projects/project-03-photo-01.jpg",
-      "assets/projects/project-03-photo-02.jpg",
-      "assets/projects/project-03-photo-03.jpg",
-      "assets/projects/project-03-photo-04.jpg"
+      "project-03-photo-01.jpg",
+      "project-03-photo-02.jpg",
+      "project-03-photo-03.jpg",
+      "project-03-photo-04.jpg"
     ],
     "description": "During my field technician internship at Hillis-Carnes Engineering Associates, I tested soil, concrete, and asphalt on active construction projects. I used specialized equipment to collect measurements relevant to compaction, material properties, and project specifications. I also interpreted CAD drawings and inspected rebar placement and formwork before concrete pours. I documented test results and communicated findings to engineers and construction teams. The experience reinforced the importance of field safety, accurate measurements, and dependable engineering documentation.",
     "technical_skills": [
@@ -122,7 +122,7 @@
       "Compression testing equipment",
       "CAD drawings"
     ],
-    "featured_image": "assets/projects/project-03-photo-01.jpg"
+    "featured_image": "project-03-photo-01.jpg"
   },
   {
     "id": 2,
@@ -140,10 +140,10 @@
       "G-code"
     ],
     "images": [
-      "assets/projects/project-04-photo-01.jpg",
-      "assets/projects/project-04-photo-02.jpg",
-      "assets/projects/project-04-photo-03.jpg",
-      "assets/projects/project-04-photo-04.jpg"
+      "project-04-photo-01.jpg",
+      "project-04-photo-02.jpg",
+      "project-04-photo-03.jpg",
+      "project-04-photo-04.jpg"
     ],
     "description": "I designed and manufactured a functional bottle opener as a CAD/CAM/CNC project. I produced two-dimensional geometry in AutoCAD and prepared machining operations in Mastercam. I established work coordinates and developed toolpaths for facing, drilling, pocketing, and contouring. I generated and adjusted G-code instructions for the CNC manufacturing process. The project connected digital drafting and toolpath planning with fabrication of a physical part.",
     "technical_skills": [
@@ -160,7 +160,7 @@
       "CNC milling equipment",
       "G-code"
     ],
-    "featured_image": "assets/projects/project-04-photo-01.jpg"
+    "featured_image": "project-04-photo-01.jpg"
   },
   {
     "id": 3,
@@ -178,10 +178,10 @@
       "Aluminum 6061"
     ],
     "images": [
-      "assets/projects/project-05-photo-01.jpg",
-      "assets/projects/project-05-photo-02.jpg",
-      "assets/projects/project-05-photo-03.jpg",
-      "assets/projects/project-05-photo-04.jpg"
+      "project-05-photo-01.jpg",
+      "project-05-photo-02.jpg",
+      "project-05-photo-03.jpg",
+      "project-05-photo-04.jpg"
     ],
     "description": "I designed and manufactured a bishop chess piece using CNC turning techniques. I developed the geometry in AutoCAD and prepared machining coordinates and operations in Mastercam. The project used Aluminum 6061 as the workpiece material. I programmed and simulated lathe toolpaths to review tool motion before machining. The finished exercise developed my understanding of CNC turning, simulation, material selection, and precision manufacturing.",
     "technical_skills": [
@@ -199,7 +199,7 @@
       "Aluminum 6061",
       "G-code"
     ],
-    "featured_image": "assets/projects/project-05-photo-01.jpg"
+    "featured_image": "project-05-photo-01.jpg"
   },
   {
     "id": 5,
@@ -217,7 +217,7 @@
       "Cost-Benefit Analysis"
     ],
     "images": [
-      "assets/projects/project-06-photo-01.jpg"
+      "project-06-photo-01.jpg"
     ],
     "description": "I completed an engineering economic feasibility analysis exploring a potential transition from gasoline vehicles to an electric fleet. The study considered the tradeoffs between initial investment and operating costs. I organized assumptions and compared alternative scenarios to support a reasoned decision. The analysis emphasized the importance of clearly communicating uncertainty and long-term costs. This was an analytical study rather than a physical vehicle conversion.",
     "technical_skills": [
@@ -231,7 +231,7 @@
       "Spreadsheet analysis",
       "Engineering economic calculations"
     ],
-    "featured_image": "assets/projects/project-06-photo-01.jpg"
+    "featured_image": "project-06-photo-01.jpg"
   },
   {
     "id": 6,
@@ -249,7 +249,7 @@
       "Kinematics"
     ],
     "images": [
-      "assets/projects/project-07-photo-01.jpg"
+      "project-07-photo-01.jpg"
     ],
     "description": "I designed a three-dimensional marble-loop track to explore energy conservation and rotational motion. I calculated the release height and velocity required for a steel marble to complete a vertical loop, including a design safety factor. I modeled the track in SolidWorks using sketches, helix geometry, and sweep features. I reviewed motion behavior and prepared the model for additive manufacturing. I exported the design to STL and configured Cura for a PLA 3D-printed prototype.",
     "technical_skills": [
@@ -268,7 +268,7 @@
       "PLA",
       "3D printer"
     ],
-    "featured_image": "assets/projects/project-07-photo-01.jpg"
+    "featured_image": "project-07-photo-01.jpg"
   },
   {
     "id": 7,
@@ -285,7 +285,7 @@
       "Web Development"
     ],
     "images": [
-      "assets/projects/project-08-photo-01.jpg"
+      "project-08-photo-01.jpg"
     ],
     "description": "I collaborated on a secure web application organized around the Model-View-Controller architecture. The project included account registration, login, authentication, and password-reset workflows. I helped implement a MySQL relational database to store and manage user information. The team connected responsive web interfaces with database-backed functionality. This experience introduced me to structured application development and collaborative software design.",
     "technical_skills": [
@@ -305,7 +305,7 @@
       "PHP"
     ],
     "illustrative": true,
-    "featured_image": "assets/projects/project-08-photo-01.jpg"
+    "featured_image": "project-08-photo-01.jpg"
   },
   {
     "id": 8,
@@ -322,7 +322,7 @@
       "Photoresistor"
     ],
     "images": [
-      "assets/projects/project-09-photo-01.jpg"
+      "project-09-photo-01.jpg"
     ],
     "description": "I developed an automatic night-light circuit concept using a photoresistor and LED. The design explored how changes in ambient light could produce an electrical response. I applied Ohm's Law, Kirchhoff's Laws, voltage dividers, Thevenin's theorem, and Wheatstone bridge analysis. I used NI Multisim to simulate resistance changes and evaluate circuit behavior. The project strengthened my DC circuit analysis and simulation skills.",
     "technical_skills": [
@@ -341,7 +341,7 @@
       "Operational amplifier concepts"
     ],
     "illustrative": true,
-    "featured_image": "assets/projects/project-09-photo-01.jpg"
+    "featured_image": "project-09-photo-01.jpg"
   },
   {
     "id": 9,
@@ -358,7 +358,7 @@
       "Analog Filters"
     ],
     "images": [
-      "assets/projects/project-10-photo-01.jpg"
+      "project-10-photo-01.jpg"
     ],
     "description": "I designed and analyzed low-pass and high-pass AC filters against specified frequency-response requirements. The project used circuit theory, complex impedance, and transfer functions to understand attenuation and cutoff behavior. I investigated passive filters and active filter modifications involving operational amplifiers. I used NI Multisim and MATLAB-based analysis to compare theoretical and simulated behavior. The work developed my understanding of analog signal conditioning and verification against design specifications.",
     "technical_skills": [
@@ -376,7 +376,7 @@
       "Operational amplifier models"
     ],
     "illustrative": true,
-    "featured_image": "assets/projects/project-10-photo-01.jpg"
+    "featured_image": "project-10-photo-01.jpg"
   },
   {
     "id": 10,
@@ -393,7 +393,7 @@
       "Sustainability"
     ],
     "images": [
-      "assets/projects/project-11-photo-01.jpg"
+      "project-11-photo-01.jpg"
     ],
     "description": "I collaborated with a three-member team on a conceptual water-infrastructure design challenge focused on Lobitos and Piedritas, Peru. We evaluated water treatment, local storage and pumping, and rainwater collection alternatives. Using a weighted multi-criteria assessment in Microsoft Excel, we compared social, economic, environmental, and implementation factors. Rainwater collection stations received the highest score in our conceptual comparison. The project taught me to evaluate engineering alternatives while considering community needs and practical constraints.",
     "technical_skills": [
@@ -409,7 +409,7 @@
       "Engineering research"
     ],
     "illustrative": true,
-    "featured_image": "assets/projects/project-11-photo-01.jpg"
+    "featured_image": "project-11-photo-01.jpg"
   },
   {
     "id": 11,
@@ -426,7 +426,7 @@
       "Biomedical Research"
     ],
     "images": [
-      "assets/projects/project-12-photo-01.jpg"
+      "project-12-photo-01.jpg"
     ],
     "description": "I collaborated on an engineering design research project examining safer transportation and preservation of donor livers. The team researched conventional cold storage and normothermic machine perfusion concepts. We identified stakeholder needs and constraints involving transport duration, power supply, equipment size, and reliability. We assessed potential hazards such as power overload and pump failure and considered redundant systems. The project was a conceptual research and design exercise, not a clinically validated medical device.",
     "technical_skills": [
@@ -444,6 +444,45 @@
       "Research documentation"
     ],
     "illustrative": true,
-    "featured_image": "assets/projects/project-12-photo-01.jpg"
+    "featured_image": "project-12-photo-01.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Autonomous Underwater Vehicle Navigation Systems",
+    "category": "Academic Research · Technical Communication",
+    "year": "2022",
+    "problem": "Investigate improved visualization and navigation for subsea inspection and repair using the Nauticus Robotics Aquanaut as a case study.",
+    "goal": "Compare candidate sensing technologies and document feasibility, safety, environmental and economic considerations.",
+    "solution": "Authored a 19-page ENGR 2196 proposal with literature review, comparative matrix, technical illustrations and recommendations. Compared LiDAR, active radar and sonar by range, angular resolution, wavelength, frequency, cost and handling.",
+    "result": "Completed a conceptual research proposal, not an implemented system. The original radar recommendation requires further validation because conventional radar is strongly attenuated in seawater.",
+    "description": "At Temple University in Fall 2022, I researched marine robotics and navigation technologies for deep-sea exploration and pipeline inspection. I evaluated three sensing approaches and documented integration challenges, operational constraints and potential benefits. The paper includes an executive summary, problem analysis, comparative assessment and references. This academic work developed my technical writing and engineering research skills.",
+    "tags": [
+      "ENGR 2196",
+      "Technical Writing",
+      "Marine Robotics"
+    ],
+    "technical_skills": [
+      "Engineering research",
+      "Literature review",
+      "Sensor evaluation",
+      "Trade studies",
+      "Feasibility analysis",
+      "Risk assessment",
+      "Technical documentation"
+    ],
+    "software_tools": [
+      "Microsoft Word",
+      "Comparative assessment matrix"
+    ],
+    "images": [
+      "research-reference-01.jpg",
+      "research-reference-02.jpg",
+      "research-reference-03.jpg",
+      "research-reference-04.gif",
+      "research-reference-05.jpg",
+      "research-reference-06.jpg",
+      "research-reference-07.png",
+      "research-reference-08.jpg"
+    ]
   }
 ]
