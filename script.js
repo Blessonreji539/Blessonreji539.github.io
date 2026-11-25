@@ -1,1 +1,2 @@
 document.getElementById('menu')?.addEventListener('click',()=>document.getElementById('navlinks')?.classList.toggle('active'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navlinks')?.classList.remove('active')));if(document.getElementById('year'))document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('[data-open-case]').forEach(link=>link.addEventListener('click',()=>{const target=document.getElementById(link.dataset.openCase);if(target)target.open=true;}));
